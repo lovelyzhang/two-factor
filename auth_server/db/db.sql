@@ -1,0 +1,7 @@
+CREATE TABLE user (
+ id INTEGER PRIMARY KEY,
+ username TEXT NOT NULL UNIQUE,
+ email TEXT NOT NULL UNIQUE,
+ code VARCHAR(6),
+ time INTEGER
+ );
