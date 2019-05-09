@@ -4,7 +4,7 @@
 #include <curl/curl.h>
 #include <security/pam_appl.h>
 #include <security/pam_modules.h>
-#include "verify.h"
+#include "2ndfactor.h"
 
 
 /* expected hook */
